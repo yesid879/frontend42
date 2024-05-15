@@ -49,8 +49,8 @@ function App() {
     <BrowserRouter>
     <Routes>
       
-   <Route path='/clientes/' element={<CompMostrarClientes />}/> 
-   <Route path='/clientes/agregar/' element={<CompCrearClientes />}/> 
+   <Route path='/clientes' element={<CompMostrarClientes />}/> 
+   <Route path='/clientes/agregar' element={<CompCrearClientes />}/> 
    <Route path='/clientes/editar/:id' element={<CompEditarClientes />}/> 
    
    </Routes>
