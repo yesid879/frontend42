@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 //const URL = 'http://localhost:7000/api/clientes/';
-const URL = 'https://backend42-4qc7.onrender.com/api/clientes';
+const URL = 'https://backend42-4qc7.onrender.com/api/clientes/';
 
 const CompCrearClientes = () => {
 
